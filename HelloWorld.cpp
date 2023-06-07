@@ -4,7 +4,8 @@
 #include "iostream"
 
 int main() {
-    std::cout << "Hello World";
+    std::cout << "Hello World \n";
+    std::cout << "Sevkan is a drunk fxck hehe!";
     return 0;
 }
 
