@@ -1,4 +1,4 @@
-# Install script for directory: D:/IdeaProjects/CLionProjects/HelloWorldCpp
+# Install script for directory: B:/c++ Tests/HelloWorldCpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/JetBrains/Local/Toolbox/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "B:/JetBrains/Toolbox/apps/apps/CLion/ch-0/231.9011.31/bin/mingw/bin/objdump.exe")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/IdeaProjects/CLionProjects/HelloWorldCpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "B:/c++ Tests/HelloWorldCpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
